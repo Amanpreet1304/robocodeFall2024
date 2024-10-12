@@ -1,6 +1,7 @@
 plugins {
     id("io.github.gradle-nexus.publish-plugin") version "1.0.0"
     idea
+    id("org.sonarqube") version "5.1.0.4882"
 }
 
 description = "Robocode - Build the best - destroy the rest!"

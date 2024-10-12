@@ -12,3 +12,5 @@ gradle-app.setting
 .sandbox
 .idea/uiDesigner.xml
 robocode.tests/screenshots/
+.idea
+robocode.main/gradle/wrapper/gradle-wrapper.properties
