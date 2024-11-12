@@ -1690,13 +1690,7 @@ public final class RobotPeer implements IRobotPeerBattle, IRobotPeer {
 			myScore += statistics.getCurrentScore();
 			hisScore += cp.getStatistics().getCurrentScore();
 		}
-		if (myScore < hisScore) {
-			return -1;
-		}
-		if (myScore > hisScore) {
-			return 1;
-		}
-		return 0;
+		return Double.compare(myScore, hisScore);
 	}
 
 	private void adjustHeadings(double turnRemaining) {
